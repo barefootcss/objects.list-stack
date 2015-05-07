@@ -16,4 +16,4 @@ Install using Bower:
 
 Import into project:
 
-	@import "bower_components/bare-list-stack/object.list-stack";
+	@import "bower_components/bare-list-stack/objects.list-stack";
