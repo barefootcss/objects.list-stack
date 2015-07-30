@@ -1,3 +1,17 @@
+// 
+// Declarations  
+// ========================================================================== 
+
+// 
+// Features:
+// 
+
+$bare-list-stack--xs:				false !default;
+$bare-list-stack--s:				false !default;
+$bare-list-stack--m:				false !default;
+$bare-list-stack--l:				false !default;
+$bare-list-stack--xl:				false !default;
+
 /* 
    #list-stack
    ========================================================================== */
@@ -18,4 +32,84 @@
 	margin: 0;
 	padding: 0;
 	list-style: none;
+}
+
+// 
+// #list-stack--xs
+// ========================================================================== 
+
+@if ($bare-list-stack--xs == true) {
+
+	.o-list-stack--xs {
+		> li {
+			&:not(:first-child) {
+				padding-top: bareRem($bare-sp-xs);
+			}
+		}
+	}
+
+}
+
+// 
+// #list-stack--s
+// ========================================================================== 
+
+@if ($bare-list-stack--s == true) {
+
+	.o-list-stack--s {
+		> li {
+			&:not(:first-child) {
+				padding-top: bareRem($bare-sp-s);
+			}
+		}
+	}
+
+}
+
+// 
+// #list-stack--m
+// ========================================================================== 
+
+@if ($bare-list-stack--m == true) {
+
+	.o-list-stack--m {
+		> li {
+			&:not(:first-child) {
+				padding-top: bareRem($bare-sp-m);
+			}
+		}
+	}
+
+}
+
+// 
+// #list-stack--l
+// ========================================================================== 
+
+@if ($bare-list-stack--l == true) {
+
+	.o-list-stack--l {
+		> li {
+			&:not(:first-child) {
+				padding-top: bareRem($bare-sp-l);
+			}
+		}
+	}
+
+}
+
+// 
+// #list-stack--xl
+// ========================================================================== 
+
+@if ($bare-list-stack--xl == true) {
+
+	.o-list-stack--xl {
+		> li {
+			&:not(:first-child) {
+				padding-top: bareRem($bare-sp-xl);
+			}
+		}
+	}
+
 }
