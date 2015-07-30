@@ -1,6 +1,6 @@
 #List-stack Object
 
-The `list-stack` object removes the bullets and indent from lists.
+The `list-stack` object creates removes the bullets and indent from lists.
 
 	<ul class="o-list-stack">
 		<li></li>
